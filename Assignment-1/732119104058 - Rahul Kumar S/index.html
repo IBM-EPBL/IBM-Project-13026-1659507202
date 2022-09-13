@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>My CV</title>
+    <!--Google fonts link for Roboto-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    </style>
+    <!--Font Awesome CDN link (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--The Top bar-->
+    <top class="nav-container">
+        <top class="nav-bar">
+            <p>Rahul Kumar</p>
+            <div class="icons">
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook-official"></i>
+                <i class="fa fa-github"></i>
+            </div>
+        </top>
+    </top>
+
+    <!--CV Container-->
+    <section class="section-container">
+        <!--Overview-->
+        <div class="overview">
+            <img class="pic" src="./assets/picture.png" alt="Unable to load Pic">
+            <div class="details-wrapper">
+               <div class="overview-details">
+                    <p class="Header-Name">Rahul Kumar S</p>
+                    <p class="Description">Software Developer & Web Designer</p>
+                    <div class="buttons-group">
+                        <button class="button1" type="submit">Download CV</button>
+                        <button class="button2" type="submit">Hire Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--About Me-->
+        <div class="aboutMe">
+            <div class="aboutme-left">
+                <h1>About Me</h1>
+                <p>Hello! I'm Rahul, I am passionate about UI/UX design and web design, but a Computer Enthusiast. I am a skilled frontend and backend developer, basically a full stack dev.</p>
+            </div>
+            <div class="aboutme-right">
+                <ul>
+                    <li>Age     -  20</li>
+                    <li>Email   - rahuls10org@gmail.com</li>
+                    <li>Phone   -  1234560987</li>
+                    <li>Address - I live in Earth, a good lively place!</li>
+                </ul>
+            </div>
+        </div>
+        <!--Skills-->
+        <h1 class="skills-header">Professional Skills</h1>
+        <div class="skills">
+            <div class="skills-left">
+                <h5>HTML</h5>
+                <progress value = "65" max = "100"></progress>
+                <h5>CSS</h5>
+                <progress value = "65" max = "100"></progress>
+                <h5>JavaScript</h5>
+                <progress value = "65" max = "100"></progress>
+            </div>
+            <div class="skills-right">
+                <h5>Programming</h5>
+                <progress value = "65" max = "100"></progress>
+                <h5>IDEs and Code Editor</h5>
+                <progress value = "65" max = "100"></progress>
+                <h5>Communication</h5>
+                <progress value = "65" max = "100"></progress>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Me form-->
+    <h2 class="contact-me-header">Contact me</h2>
+    <form class="contact-me" id="contact-me">
+        <div class="form-container">
+            <h5>Name</h5>
+            <input type="text">
+            <h5>Email</h5>
+            <input type="text">
+            <h5>Query</h5>
+            <textarea name="Query" form="contact-me"></textarea>
+            <button type="submit">submit</button>
+        </div>
+    </form>
+</body>
+</html>
