@@ -1,0 +1,176 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* for top bar */
+.nav-container{
+    height: 10vh;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.nav-bar{
+    height: inherit;
+    width: 100%;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons{
+    height: inherit;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* for body section */
+.section-container{
+    min-height: 100vh;
+    width: 70%;
+    display: block;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+
+.overview{
+    height: 30vh;
+    width: 100%;
+    background-color: #5a80d1;
+    display: flex;
+}
+
+.pic{
+    margin-left: 35px;
+    margin-top: 75px;
+    width: 175px;
+    height: 175px;
+    border: 5px solid white;
+}
+
+.details-wrapper{
+    display: block;
+    margin: auto;
+}
+
+.overview-details{
+    color: white;
+}
+
+.Header-Name{
+    font-size: 4em;
+}
+.Description{
+    font-weight: lighter;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+button{
+    font-size: 1em;
+    border-radius: 25px;
+}
+.button1{
+    background-color: white;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border: none;
+    color: gray;
+}
+.button2{
+    background-color: green;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+}
+
+/* About Me section */
+.aboutMe{
+    margin-top: 50px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutme-left{
+    width: 50%;
+    height: 100%;
+    padding: 10px 40px;
+}
+.aboutme-left p{
+    padding: 25px 0px;
+    color: gray;
+}
+.aboutme-right{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: relative;
+}
+.aboutme-right ul{
+    color: gray;
+}
+.aboutme-right ul li{
+    padding: 10px 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.skills-header{
+    padding: 10px 40px;
+}
+.skills{
+    color: gray;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+}
+.skills-left{
+    width: 50%;
+    padding: 10px 40px;
+}
+.skills progress{
+    color:rgba(0, 0, 0, 0.24);
+}
+
+.contact-me-header{
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding: 10px 40px;
+}
+.contact-me{
+    padding: 25px;
+    height: auto;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+.form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.form-container h5{
+    padding: 10px 0px;
+}
+.form-container button{
+    margin-top: 25px;
+    background-color: green;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+}
