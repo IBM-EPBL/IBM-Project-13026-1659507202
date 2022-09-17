@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>My CV</title>
+    <!--Google fonts link for Roboto-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    </style>
+    <!--Font Awesome CDN link (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--The Top bar-->
+    <top class="nav-container">
+        <top class="nav-bar">
+            <p>Vijayananthan</p>
+            <div class="icons">
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook-official"></i>
+                <i class="fa fa-github"></i>
+            </div>
+        </top>
+    </top>
+
+    <!--CV Container-->
+    <section class="section-container">
+        <!--Overview-->
+        <div class="overview">
+            <img class="pic" src="./pic.jpg" alt="Unable to load Pic">
+            <div class="details-wrapper">
+               <div class="overview-details">
+                    <p class="Header-Name">Vijayananthan</p>
+                    <p class="Description">Web Developer & Graphic Designer</p>
+                    <div class="buttons-group">
+                        <button class="button1" type="submit">Download CV</button>
+                        <button class="button2" type="submit">Hire Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--About Me-->
+        <div class="aboutMe">
+            <div class="aboutme-left">
+                <h1>About Me</h1>
+                <p>Hello! I'm Vijayananthan, I am passionate about UI/UX design and web design. I am a skilled frontend developer and maseter of graphic design tools such as Photoshop and Sketch</p>
+            </div>
+            <div class="aboutme-right">
+                <ul>
+                    <li>Age     -  21</li>
+                    <li>Email   - msvijayananthan@gmail.com</li>
+                    <li>Phone   - 9876543210</li>
+                    <li>Address - My address</li>
+                </ul>
+            </div>
+        </div>
+        <!--Skills-->
+        <h1 class="skills-header">Professional Skills</h1>
+        <div class="skills">
+            <div class="skills-left">
+                <h5>HTML</h5>
+                <progress value = "65" max = "100"></progress>
+                <h5>CSS</h5>
+                <progress value = "65" max = "100"></progress>
+                <h5>JavaScript</h5>
+                <progress value = "65" max = "100"></progress>
+            </div>
+            <div class="skills-right">
+                <h5>Adobe Photoshop</h5>
+                <progress value = "65" max = "100"></progress>
+                <h5>Sketch</h5>
+                <progress value = "65" max = "100"></progress>
+                <h5>Adobe XD</h5>
+                <progress value = "65" max = "100"></progress>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Me form-->
+    <h1 class="contact-me-header">Contact me</h1>
+    <form class="contact-me" id="contact-me">
+        <div class="form-container">
+            <h5>Name</h5>
+            <input type="text">
+            <h5>Email</h5>
+            <input type="text">
+            <h5>Query</h5>
+            <textarea name="Query" form="contact-me"></textarea>
+            <button type="submit">submit</button>
+        </div>
+    </form>
+</body>
+</html>
