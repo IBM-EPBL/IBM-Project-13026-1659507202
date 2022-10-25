@@ -37,5 +37,5 @@ techniques like `AGENTS`, `CHATBOT`, `USERS` etc...
 - [x] Design Phase I
 - [x] Design Phase II
 - [x] Ideation Phase
-- [ ] Project Planning
+- [x] Project Planning
 - [ ] Project Workflow
