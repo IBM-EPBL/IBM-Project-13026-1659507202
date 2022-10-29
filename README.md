@@ -22,10 +22,10 @@ techniques like `AGENTS`, `CHATBOT`, `USERS` etc...
 ---
 
 ## 🎯 ASSIGNMENTS
-- [x] ASSIGNMENT 1
-- [x] ASSIGNMENT 2
-- [x] ASSIGNMENT 3
-- [x] ASSIGNMENT 4
+> - [x] ASSIGNMENT 1
+> - [x] ASSIGNMENT 2
+> - [x] ASSIGNMENT 3
+> - [x] ASSIGNMENT 4
 
 ## 🔗 ASSIGNMENTS LINK FOR SPECIFIC CONTRIBUTOR
 - <a href = "https://github.com/IBM-EPBL/IBM-Project-13026-1659507202/tree/main/Assignments/Team%20Lead">📂</a> • TEAM LEAD
@@ -35,16 +35,16 @@ techniques like `AGENTS`, `CHATBOT`, `USERS` etc...
 ---
 
 ## 📚 PRE DEVELOPMENT
-- [x] <a herf = "https://github.com/IBM-EPBL/IBM-Project-13026-1659507202/tree/main/Pre-Development/Design_Phase_1">📂</a> • Design Phase I 
-- [x] <a herf = "https://github.com/IBM-EPBL/IBM-Project-13026-1659507202/tree/main/Pre-Development/Design_Phase_2">📂</a> • Design Phase II 
-- [x] <a herf = "https://github.com/IBM-EPBL/IBM-Project-13026-1659507202/tree/main/Pre-Development/Ideation_Phase">📂</a> • Ideation Phase 
-- [x] <a herf = "https://github.com/IBM-EPBL/IBM-Project-13026-1659507202/tree/main/Pre-Development/Project_Planning">📂</a> • Project Planning
-- [ ] <a herf = "https://github.com/IBM-EPBL/IBM-Project-13026-1659507202/tree/main/Pre-Development/Project_Workflow">📂</a> • Project Workflow 
+> - [x] <a herf = "https://github.com/IBM-EPBL/IBM-Project-13026-1659507202/tree/main/Pre-Development/Design_Phase_1">📂</a> • Design Phase I 
+> - [x] <a herf = "https://github.com/IBM-EPBL/IBM-Project-13026-1659507202/tree/main/Pre-Development/Design_Phase_2">📂</a> • Design Phase II 
+> - [x] <a herf = "https://github.com/IBM-EPBL/IBM-Project-13026-1659507202/tree/main/Pre-Development/Ideation_Phase">📂</a> • Ideation Phase 
+> - [x] <a herf = "https://github.com/IBM-EPBL/IBM-Project-13026-1659507202/tree/main/Pre-Development/Project_Planning">📂</a> • Project Planning
+> - [ ] <a herf = "https://github.com/IBM-EPBL/IBM-Project-13026-1659507202/tree/main/Pre-Development/Project_Workflow">📂</a> • Project Workflow 
 ---
 
 ## 💡 PROJECT DEVELOPMENT PHASE
-- [ ] SPRINT I
-- [ ] SPRINT II
-- [ ] SPRINT III
-- [ ] SPRINT IV
+> - [ ] SPRINT I
+> - [ ] SPRINT II
+> - [ ] SPRINT III
+> - [ ] SPRINT IV
 
