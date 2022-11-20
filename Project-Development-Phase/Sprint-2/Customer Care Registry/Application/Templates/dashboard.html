@@ -1,0 +1,48 @@
+{% extends 'index.html' %}
+
+{% block header %}
+
+<div class="nav-wrapper">
+    <div class="nav-bar">
+        <div class="title-text"> <h1>CCR</h1> </div>
+        <ul class="ul-list">
+            <li> <a href="{{ url_for('myqueries', id = session['user']['email']) }}">My Queries</a> </li>
+            <li> <a href="{{ url_for('signout') }}">Sign Out</a> </li>
+        </ul>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+    <div class="message">
+        <h4>You are currently logged In :)</h4>
+        {{ msg }}
+    </div>
+
+    <div class="dash-board">
+        <h1>WELCOME TO YOUR DASHBOARD!!!</h1>
+        
+        <br><br><br>
+        
+        <section class="dashboard-content">
+            <h3>Raise a Query!</h3>
+            <form action="{{ url_for('addQuery') }}" method="POST" class="query-form">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" value="{{ session['user']['email'] }}" />
+
+                <label for="query_title">Title</label>
+                <input type="text" id="query_title" name="query_title" />
+
+                <label for="query_body">Query</label>
+                <input type="textarea" id="query_body" name="query_body" />
+
+                <button type="submit">Raise Query</button>
+
+            </form>
+        </section>       
+    </div>
+    
+{% endblock %}

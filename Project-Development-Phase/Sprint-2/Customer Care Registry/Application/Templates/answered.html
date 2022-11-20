@@ -1,0 +1,24 @@
+{% extends 'index.html' %}
+
+{% block header %}
+
+    <div class="nav-wrapper">
+        <div class="nav-bar">
+            <div class="title-text"> <h1>CCR</h1> </div>
+            <ul class="ul-list">
+                <li> <a href="#">Top Queries</a> </li>
+                <li> <a href="{{ url_for('dashboard', userid=session['user']['email']) }}">Dashboard</a> </li>
+                <li> <a href="{{ url_for('signout') }}">Sign Out</a> </li>
+            </ul>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block content %}
+
+    <div class="answered-block">
+        <h1>{{ msg }}</h1>
+    </div>
+
+{% endblock %}
