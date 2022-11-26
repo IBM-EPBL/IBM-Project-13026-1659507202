@@ -1,0 +1,43 @@
+{% extends 'index.html' %}
+
+{% block header %}
+
+    <div class="nav-wrapper">
+        <div class="nav-bar">
+            <div class="title-text"> <h1>CCR</h1> </div>
+            <ul class="ul-list">
+                <li> <a href="{{ url_for('login') }}">Sign in</a> </li>
+            </ul>
+        </div>
+    </div>
+
+{% endblock %}
+
+
+{% block content %}
+
+    <div class="queries-box">
+    <table>
+        
+        <thead>
+        <td>USER</td>
+        <td>Query Title</td>
+        <td>Query body</td>
+        </thead>
+
+        {% for query in queries %}
+
+        <tr>
+
+            <td>{{ query['email'] }}</td>
+            <td>{{ query['query_title'] }}</td>
+            <td>{{ query['query_body'] }}</td>
+
+        </tr>
+
+        {% endfor %}
+
+    </table>
+    </div>
+
+{% endblock %}

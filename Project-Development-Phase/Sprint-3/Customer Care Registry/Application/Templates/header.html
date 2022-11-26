@@ -1,0 +1,15 @@
+{% block header %}
+
+    <div class="nav-wrapper">
+        <div class="nav-bar">
+            <div class="title-text"> <a href="{{ url_for('home') }}"><h1>CCR</h1></a> </div>
+            <ul class="ul-list">
+                <li> <a href="{{ url_for('topQueries') }}">Top Queries</a> </li>
+                <!--<li> <a href="{{ url_for('listUsers') }}">List Users</a> </li> -->
+                <li> <a href="{{ url_for('login') }}">Sign in</a> </li>
+                <li> <a href="{{ url_for('CreateUser') }}">Sign up</a> </li>
+            </ul>
+        </div>
+    </div>
+
+{% endblock %}

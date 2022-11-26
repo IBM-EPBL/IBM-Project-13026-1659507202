@@ -1,0 +1,59 @@
+{% extends 'index.html' %}
+
+{% block header %}
+
+<div class="nav-wrapper">
+    <div class="nav-bar">
+        <div class="title-text"> <h1>CCR</h1> </div>
+        <ul class="ul-list">
+            <li> <a href="#">Top Queries</a> </li>
+            <li> <a href="{{ url_for('listUsers') }}">List Users</a> </li>
+            <li> <a href="{{ url_for('signout') }}">Sign Out</a> </li>
+        </ul>
+    </div>
+</div>
+
+{% endblock %}
+
+
+{% block content %}
+
+    <div class="message">
+        <h4>You are currently logged In :)</h4>
+        {{ msg }}
+    </div>
+
+    <div class="dash-board">
+        <h1>WELCOME TO <b>ADMIN</b> DASHBOARD!!!</h1>
+        <section class="dashboard-content">
+            
+            <h3>Queries</h3>
+            <table>
+            <thead>
+                <td>USER EMAIL</td>
+                <td>QUERY TITLE</td>
+                <td>QUERY BODY</td>
+                <td>ANSWER</td>
+                <td>ACTION</td>
+            </thead>
+            
+            {% for query in queries %}
+
+            <tr>
+                <td>{{ query['email'] }}</td>
+                <td>{{ query['query_title'] }}</td>
+                <td>{{ query['query_body'] }}</td>
+                <form action="{{ url_for('answerQuery', email=query['email'] , query_title=query['query_title']) }}" method="POST">
+                <td><input name="answer" id="answer" type="text" /></td>
+                <td><button type="submit">Answer</button></td>
+
+                </form>
+            </tr>
+
+            {% endfor %}
+            </table>
+
+        </section>
+    </div>
+
+{% endblock %}
