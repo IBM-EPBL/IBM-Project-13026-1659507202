@@ -1,1 +1,1 @@
-- [x] IBM Watson Assistant integration
+- [x] IBM Watson Assistant integration with Application
