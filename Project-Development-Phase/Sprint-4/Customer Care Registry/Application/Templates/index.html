@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCR</title>
+    <link rel="stylesheet" href= "{{ url_for('static', filename = 'css/style.css') }}">
+</head>
+<body>
+    
+    {% block header %}
+    {% include 'header.html' %}
+    {% endblock %}
+
+    {% block content %} {% endblock %}
+
+    {% include 'footer.html' %}
+
+    <!-- IBM Watson assistant -->
+
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "e319bffa-bbf7-4fd6-aedd-a242b37be70f", // The ID of this integration.
+          region: "au-syd", // The region your integration is hosted in.
+          serviceInstanceID: "e1072521-39dc-4f9d-aed5-849b86e0fbe0", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+
+</body>
+</html>

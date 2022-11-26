@@ -1,0 +1,326 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+
+
+/* ScrollBar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: grey
+}
+  
+
+
+
+
+/* Common for all */
+*{
+    font-family: 'Open Sans', 'Roboto', 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* Nav-Bar */
+.nav-wrapper{
+    background: black;
+    color: white;
+    top: 0;
+    position: sticky;
+}
+
+.nav-bar{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-text{
+    margin-left: 10px;
+    margin-right: auto;
+    background-image: url(../assets/boat.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    background-position: center;
+}
+
+.ul-list{
+    list-style-type: none;
+    display: flex;
+}
+.ul-list li{
+    padding: 0px 10px;
+}
+.ul-list li a{
+    color: white;
+    text-decoration: none;
+}
+.ul-list li a:hover{
+    color: rgba(254,104,113,255);
+}
+
+
+
+
+
+/* HomePage */
+.home-body{
+    background: black;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page-title{
+    background-image: url(../assets/sunset.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    font-size: 125px;
+    font-weight: 900;
+}
+
+.team-details{
+    height: 25vh;
+    color: white;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* Signup */
+
+.signup-message{
+    margin-top: 90px;
+    height: 100vh;
+    position: absolute;
+}
+
+.sign-up{
+    background: black;
+    color: white;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sign-up-title{
+    margin-top: -50px;
+    margin-bottom: 25px;
+    background-image: url(../assets/boat.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    background-position: center;
+}
+
+.form-title{
+    background-image: url(../assets/boat.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.sign-up form{
+    display: flex;
+    flex-direction: column;
+}
+.sign-up form input{
+    margin-bottom: 10px;
+}
+.sign-up form button{
+    margin-top: 50px;
+}
+
+#select-options{
+    margin-bottom: 10px;
+}
+
+
+/* Login */
+.login-div{
+    background: black;
+    color: white;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-div form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form form input{
+    margin-bottom: 10px;
+}
+
+.login-div form button{
+    margin-top: 50px;
+}
+
+/* Dashboard */
+.message{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.message h4{
+    margin-top: 10px;
+}
+
+.dash-board{
+    color: white;
+    background: black;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.dash-board form{
+    display: flex;
+    flex-direction: column;
+}
+
+.dash-board form input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dash-board form button{
+    margin-top: 20px;
+}
+
+.dashboard-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    table-layout: fixed;
+    width: 80%;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: gray;
+}
+  
+tbody tr:nth-child(even) {
+    background-color: black;
+}
+
+
+
+
+/* Footer */
+.footer{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: black;
+}
+
+
+
+
+
+/* Answered Block */
+.answered-block{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answered-block h1{
+    background-image: url(../assets/sunset.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+
+
+/* top-queries-section */
+.top-queries-section{
+    min-height: 100vh;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.queries-box{
+    background: black;
+    color: white;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.queries-box thead{
+    justify-content: space-between;
+}
+
+.myqueries-body{
+    min-height: 100vh;
+    background: black;
+    color: white;
+}

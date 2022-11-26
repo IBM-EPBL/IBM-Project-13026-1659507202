@@ -1,0 +1,33 @@
+{% extends 'index.html' %}
+
+{% block content %}
+    <div class="sign-up">
+
+        <div class="signup-message">{{ msg }}</div>
+
+        <h1 class="sign-up-title">CUSTOMER CARE REGISTRY</h1>
+        <h5 class="form-title">Register a new Account</h5>
+
+        <form action="{{ url_for('CreateUser') }}" method="POST" class="sign-up-form">
+            <label for="username">Name</label>
+            <input type="text" placeholder="Rahul Kumar S" id="username" name="name" required />
+            
+            <label for="email">Email</label>
+            <input type="email" placeholder="rahuls10org@gmail.com" id="email" name="email" required />
+
+            <label for="select-options">Choose Role</label>
+            <select id="select-options" name="role" required>
+                <option value="customer">User</option>
+                <option value="agent">Agent</option>
+            </select>
+            
+            <label for="password">Password</label>
+            <input type="password" placeholder="********" id="password" name="password" required />
+
+            <label for="retyped-password">Retype Password</label>
+            <input type="password" placeholder="********" id="retyped-password" name="retyped-password" required />
+
+            <button type="submit">REGISTER</button>
+        </form>
+    </div>
+{% endblock %}
