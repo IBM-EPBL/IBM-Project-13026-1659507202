@@ -39,12 +39,12 @@ techniques like `AGENTS`, `CHATBOT`, `USERS` etc...
 > - [x] <a herf = "https://github.com/IBM-EPBL/IBM-Project-13026-1659507202/tree/main/Pre-Development/Design_Phase_2">📂</a> • Design Phase II 
 > - [x] <a herf = "https://github.com/IBM-EPBL/IBM-Project-13026-1659507202/tree/main/Pre-Development/Ideation_Phase">📂</a> • Ideation Phase 
 > - [x] <a herf = "https://github.com/IBM-EPBL/IBM-Project-13026-1659507202/tree/main/Pre-Development/Project_Planning">📂</a> • Project Planning
-> - [ ] <a herf = "https://github.com/IBM-EPBL/IBM-Project-13026-1659507202/tree/main/Pre-Development/Project_Workflow">📂</a> • Project Workflow 
+> - [x] <a herf = "https://github.com/IBM-EPBL/IBM-Project-13026-1659507202/tree/main/Pre-Development/Project_Workflow">📂</a> • Project Workflow 
 ---
 
 ## 💡 PROJECT DEVELOPMENT PHASE
-> - [ ] SPRINT I
-> - [ ] SPRINT II
-> - [ ] SPRINT III
-> - [ ] SPRINT IV
+> - [x] SPRINT I
+> - [x] SPRINT II
+> - [x] SPRINT III
+> - [x] SPRINT IV
 
